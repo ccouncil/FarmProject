@@ -31,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['project-env.eba-y6agpfuj.us-west-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
